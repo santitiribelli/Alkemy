@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\santi\\Desktop\\Backend\\ChallengeAlkemy\\ChallengeAlkemy\\ChallengeAlkemy.csproj": {}
+    "C:\\Users\\santiago.tiribelli\\Desktop\\Backend\\Alkemy\\ChallengeAlkemy.csproj": {}
   },
   "projects": {
-    "C:\\Users\\santi\\Desktop\\Backend\\ChallengeAlkemy\\ChallengeAlkemy\\ChallengeAlkemy.csproj": {
+    "C:\\Users\\santiago.tiribelli\\Desktop\\Backend\\Alkemy\\ChallengeAlkemy.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\santi\\Desktop\\Backend\\ChallengeAlkemy\\ChallengeAlkemy\\ChallengeAlkemy.csproj",
+        "projectUniqueName": "C:\\Users\\santiago.tiribelli\\Desktop\\Backend\\Alkemy\\ChallengeAlkemy.csproj",
         "projectName": "ChallengeAlkemy",
-        "projectPath": "C:\\Users\\santi\\Desktop\\Backend\\ChallengeAlkemy\\ChallengeAlkemy\\ChallengeAlkemy.csproj",
-        "packagesPath": "C:\\Users\\santi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\santi\\Desktop\\Backend\\ChallengeAlkemy\\ChallengeAlkemy\\obj\\",
+        "projectPath": "C:\\Users\\santiago.tiribelli\\Desktop\\Backend\\Alkemy\\ChallengeAlkemy.csproj",
+        "packagesPath": "C:\\Users\\santiago.tiribelli\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\santiago.tiribelli\\Desktop\\Backend\\Alkemy\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\santi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\santiago.tiribelli\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,6 +43,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.17, )"
@@ -60,6 +71,10 @@
               "target": "Package",
               "version": "[5.0.17, )"
             },
+            "Microsoft.Extensions.Identity.Core": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
@@ -75,12 +90,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[5.0.12, 5.0.12]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -89,7 +98,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

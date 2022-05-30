@@ -1,6 +1,7 @@
 ﻿using ChallengeAlkemy.BusinessLogic;
 using ChallengeAlkemy.Data;
 using ChallengeAlkemy.Entities;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Linq;
@@ -9,6 +10,7 @@ namespace ChallengeAlkemy.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class PeliculaController : ControllerBase
     {
 

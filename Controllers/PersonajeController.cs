@@ -1,5 +1,6 @@
 ﻿using ChallengeAlkemy.BusinessLogic;
 using ChallengeAlkemy.Entities;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -7,11 +8,10 @@ namespace ChallengeAlkemy.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class PersonajeController : ControllerBase
     {
          
-
-
         [HttpGet]
         public ActionResult GetList()
         {
